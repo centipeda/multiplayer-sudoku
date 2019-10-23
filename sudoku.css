@@ -1,0 +1,38 @@
+#title {
+    top: 50px;
+    font-family: "Source Sans Pro";
+    font-size: 70px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+
+.menubut {
+    margin: 10px;
+    padding: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-align: center;
+    background: #c6c9ce;
+    border: none;
+    border-radius: 3px;
+    font-family: "Source Sans Pro";
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#board {
+    border: 3px solid black;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+
+.float-text {
+    font-family: Source Sans Pro;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}

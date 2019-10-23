@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"
+        rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="sudoku.css">
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <title>sudokumenu</title>
+    </head>
+<body>
+    <div id="title">SUDOKU</div>
+    <div style="text-align: center;">
+        <button type="button" id="newgame" class="menubut">Start a New Game</button>
+        <div class="float-text" id="info"> </div>
+        <input type="text" id="gameid">
+        <button type="button" id="joingame" value="Game ID" class="menubut">Join an Existing Game</button>
+        <br>
+        <div class="float-text" id="add-info"></div>
+    </div>
+</body>
+<script src="/menu.js"></script>
+</html>
